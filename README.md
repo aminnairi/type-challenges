@@ -10,8 +10,9 @@
 ## Clone
 
 ```bash
-git clone https://github.com/aminnairi/type-challenges.git ~/git/github.com/aminnairi/type-challenges
-cd ~/git/github.com/aminnairi/type-challenges
+git clone https://github.com/aminnairi/type-challenges.git \
+  ~/git/github.com/aminnairi/type-challenges \
+  && cd ~/git/github.com/aminnairi/type-challenges
 ```
 
 ## Installation
