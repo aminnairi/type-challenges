@@ -7,12 +7,13 @@
 - Docker Compose
 - GNU/Make
 
-## Clone
+## Setup
 
 ```bash
 git clone https://github.com/aminnairi/type-challenges.git \
   ~/git/github.com/aminnairi/type-challenges \
-  && cd ~/git/github.com/aminnairi/type-challenges
+  && cd ~/git/github.com/aminnairi/type-challenges \
+  && make install
 ```
 
 ## Installation
