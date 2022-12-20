@@ -9,3 +9,15 @@ services:
     working_dir: /home/node
     volumes:
       - .:/home/node
+
+  npm:
+    extends: node
+    entrypoint: npm
+
+  npx:
+    extends: node
+    entrypoint: npx
+
+  sh:
+    extends: node
+    entrypoint: sh
